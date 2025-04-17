@@ -1,5 +1,5 @@
 # FailingBridgeDetector
-Built a custom decision tree algorithm mechanism to detect patterns of failing bridges in Pittsburgh using the Pittsburgh bridges dataset from CMU's  Engineering Design Research Center.
+Built a custom decision tree algorithm mechanism to detect patterns of failed bridges in Pittsburgh using the Pittsburgh bridges dataset from CMU's  Engineering Design Research Center.
 
 The code can be found in both the jupyter notebook file as well as the python file. This custom decision tree algorithm is based off the ID3 algorithm for generating a decision tree, adding a
 few extra pre pruning steps such as the max depth of a branch and the minimum samples split at a given node. I tested this tree on 25 datapoints, or about 26 percent of the data. 
